@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Quiz </title>
+<link href= "quiz1.css" rel="stylesheet">
+<script src = "quiz1.js"> </script>
+<link href="https://fonts.googleapis.com/css?family=Monofett" rel="stylesheet">
+</head>
+
+<body>
+  <div class="header">
+    <img class="logo" src="logo.png"> 
+    <a class="buttons" href="randomgenerator.html">Random Generator</a>
+    <a class="buttons" href="home.html">Home</a>
+    <a class="buttons" href="dashboard.html">Iconic Looks</a>
+    <a class="buttons" href="quiz2.html">Quiz 2</a>
+    <a class="buttons" href="profile.html">Profile</a>
+  </div>
+  <br>
+
+  <form id="quiz1" name="quiz1">
+    <p> Which celebrity's fashion sense do you identify most with? </p>
+    <input type="radio" id="mc" name="question1" value="Jennifer Aniston in the 90s"> Jennifer Aniston in the 90s <br>
+    <input type="radio" id="mc" name="question1" value="Oprah Winfrey"> Oprah Winfrey <br>
+    <input type="radio" id="mc" name="question1" value="Mary Kate Olsen"> Mary Kate Olsen <br>
+    <input type="radio" id="mc" name="question1" value="Emma Watson"> Emma Watson <br>
+    <input type="radio" id="mc" name="question1" value="Emma Chamberlin"> Emma Chamberlin <br>
+
+    <p> What's your go-to clothing piece? </p>
+    <input type="radio" id="mc" name="question2" value="Cute overalls"> Cute overalls <br>
+    <input type="radio" id="mc" name="question2" value="Plain T-shirt"> Plain T-shirt <br>
+    <input type="radio" id="mc" name="question2" value="Converse"> Converse <br>
+    <input type="radio" id="mc" name="question2" value="Blouse"> Blouse <br>
+    <input type="radio" id="mc" name="question2" value="Mom jeans"> Mom jeans <br>
+
+    <p> Where do you find your favorite clothing items? </p>
+    <input type="radio" id="mc" name="question3" value="Thrift shops"> Thrift shops <br>
+    <input type="radio" id="mc" name="question3" value="They’re all hand-me downs"> They're all hand-me downs <br>
+    <input type="radio" id="mc" name="question3" value="Random stores"> Random stores <br>
+    <input type="radio" id="mc" name="question3" value="J.Crew and Banana Republic"> J.Crew and Banana Republic <br>
+    <input type="radio" id="mc" name="question3" value="Forever 21 and Brandy Melville"> Forever 21 and Brandy Melville <br>
+
+    <p> What can your friends find you doing on the weekends? </p>
+    <input type="radio" id="mc" name="question4" value="Taking pictures with your polaroid"> Taking pictures with your polaroid <br>
+    <input type="radio" id="mc" name="question4" value="At home watching TV shows"> At home watching TV shows <br>
+    <input type="radio" id="mc" name="question4" value="Skating at the skate park"> Skating at the skate park <br>
+    <input type="radio" id="mc" name="question4" value="Outside running errands"> Outside running errands <br>
+    <input type="radio" id="mc" name="question4" value="Shopping"> Shopping <br>
+
+    <p> When you flip through a fashion magazine, which is most likely to catch your eye? </p>
+    <input type="radio" id="mc" name="question5" value="A woman wearing a blazer and sleek dress on the catwalk"> A woman wearing a blazer and sleek dress on the catwalk <br>
+    <input type="radio" id="mc" name="question5" value="A girl showing her outfit on her last day of high school"> A girl showing her outfit on her last day of high school <br>
+    <input type="radio" id="mc" name="question5" value="A celebrity rocking a band tee on the street"> A celebrity rocking a band tee on the street <br>
+    <input type="radio" id="mc" name="question5" value="A man wearing a clean suit during a photoshoot"> A man wearing a clean suit during a photoshoot <br>
+    <input type="radio" id="mc" name="question5" value="A picture of a group of friends going to see a movie"> A picture of a group of friends going to see a movie <br>
+
+    <input class="button" id="button" type="button" value="Done" onclick="check1();">
+  </form>
+
+  <div id="after_submit">
+    <p id="message"> </p>
+  </div>
+
+  <a href="quiz2.html">Take another quiz</a>
+
+<div class="bottom">
+  <p class="bottom">
+    Made By D.D.A.B
+  </p>
+</div>
+</body>
+</html>
