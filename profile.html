@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.item1 { grid-area: header; }
+.item2 { grid-area: menu;}
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  grid-gap: 10px;
+  background-color: white;
+  padding: 10px;
+}
+.grid-container > div {
+  background-color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  color:black;
+ 
+}
+
+.header{
+ overflow:hidden;
+ background-color: black;
+padding:20px;
+
+
+}
+
+.logo{
+display:inline-block;  
+width:100px;   
+
+}
+
+a{
+  display:block;  
+ justify-content:space-around;
+ font-size:25px;
+ text-decoration: none;
+ color:white;
+  font-family: 'Monofett', cursive;
+  text-align:center;
+  float:right;
+ padding:12px;
+ line-height: 25px;
+ border-radius:4px;
+}
+
+body{
+     font-family: 'Song Myung', serif;
+}
+
+.pfp{
+    border-radius:50%;
+    width:100px;
+}
+
+.dai1{
+  width:200px;  
+  height:200px;
+  padding-bottom:50px;
+}
+
+
+
+
+.dai2{
+   width:200px;  
+  height:200px;
+   transform:rotate(90deg);
+   padding:50px;
+}
+
+.dai3{
+   width:200px;  
+  height:200px;
+   transform:rotate(90deg);
+   padding:50px;
+}
+
+.bh{
+    float:left;
+}
+
+.fb{
+    padding:10px;
+    background-color:teal;
+    color:white;
+    cursor:pointer;
+}
+
+.fg{
+    background-color:white;
+    padding:10px;
+    cursor:pointer;
+}
+
+.menu{
+  display:block;  
+ justify-content:space-around;
+ font-size:25px;
+ background-color: transparent;
+ border:transparent;
+  font-family: 'Monofett', cursive;
+  text-align:center;
+  float:right;
+ padding:12px;
+ line-height: 25px;
+ border-radius:4px;  
+ color:white;
+}
+
+.slide{
+    float:right;
+   width:300px;
+   padding-bottom:1px;
+   background-color: black;
+}
+    
+.bottom{
+    display:flex;
+    justify-content:center;
+    padding:10px;
+    overflow:hidden;
+    padding-left:400px;
+    padding-right:400px;
+    background-color: black;
+    color:white;
+    font-family: 'Song Myung', serif;
+    font-size:25px;
+}
+</style>
+<link href="https://fonts.googleapis.com/css?family=Monofett" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Faster+One|Song+Myung" rel="stylesheet">
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    <!-- import the webpage's javascript file -->
+    <script src="script.js" defer></script>
+</head>
+<body>
+<div class="header">
+    <img class="logo" src="logo.png"> 
+       <button class="menu">Menu</button>
+  </div>
+
+</div>
+      <div class="slide">
+        <a class="buttons" href="random.html">Random Generator</a>
+    <a class="buttons" href="home.html">Home</a>
+    <a class="buttons" href="dashboard.html">Iconic Looks</a>
+     <a class="buttons" href="quiz.html">Quiz 1</a>
+     <a class="buttons" href="quiz2.html">Quiz 2</a>
+      </div>
+
+
+<div class="grid-container">
+  <div class="item1">Daively_Jorge</div>
+  <div class="item2">
+<img class="pfp" src="daivelyjj.jpg">
+</div>
+  <div class="item3">
+     <h1 class="bh">Bio</h1> 
+     <p class="bh">Hi I'm Daively, Welcome to my page! I hope you enjoy my Lovely pictures!</p>
+    
+     
+      
+  </div>
+  <div class="item4">
+      <p>3 posts</p> 
+      <p>5K followers</p> 
+      <p>250 Following </p>
+      <p class="fb">Follow</p>
+      <p class="fg">Following</p>
+    </div>
+  <div class="item5">
+    <img class="dai1" src="dai1.JPG"> 
+    <img class="dai2" src="dai2.jpg">
+    <img class="dai3" src="dai3.jpg">
+      
+  </div>
+</div>
+<div class="bottom">
+  <p class="bottom">
+    Made By D.D.A.B
+  </p>
+</div>
+</body>
+</html>
