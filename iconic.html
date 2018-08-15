@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="dashboard.css">
+   <link href="https://fonts.googleapis.com/css?family=Faster+One|Song+Myung" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Monofett" rel="stylesheet">
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- import the webpage's javascript file -->
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div class="header">
+     <img class="logo" src="logo.png"> 
+     <a class="buttons" href="random.html">Random Generator</a>
+    <a class="buttons" href="home.html">Home</a>
+    <a class="buttons" href="quiz.html">Quiz 1</a>
+    <a class="buttons" href="quiz2.html">Quiz 2</a>
+    <a class="buttons" href="profile.html">Profile</a>
+   </div>
+
+
+<div class="allSlides">
+  <h1 class="all" style="text-align:center">Here are some classic Iconic Looks</h1>
+  <div class="slides">
+    <img src="dashboard1.jpg" style="width:100%">
+  </div>
+
+  <div class="slides">
+    <img src="dashboard2.jpg" style="width:100%">
+  </div>
+
+  <div class="slides">
+    <img src="dashboard3.jpg" style="width:100%">
+  </div>
+
+  <div class="slides">
+    <img src="dashboard4.jpg" style="width:100%">
+  </div>
+
+  <div class="slides">
+    <img src="dashboard5.jpg" style="width:100%">
+  </div>
+
+  <div class="slides">
+    <img src="dashboard6.jpeg" style="width:100%">
+  </div>
+
+  <div class="slides">
+    <img src="dashboard7.jpg" style="width:100%">
+  </div>
+
+  <div class="slides">
+    <img src="dashboard8.jpg" style="width:100%">
+  </div>
+
+  <div class="slides">
+    <img src="dashboard9.jpg" style="width:100%">
+  </div>
+
+  <div class="slides">
+    <img src="dashboard10.jpg" style="width:100%">
+  </div>
+
+  <div class="slides">
+    <img src="dashboard11.jpg" style="width:100%">
+  </div>
+
+  <div class="slides">
+    <img src="dashboard12.jpg" style="width:100%">
+  </div>
+
+  <div class="slides">
+    <img src="dashboard13.jpg" style="width:100%">
+  </div>
+
+  <div class="slides">
+    <img src="dashboard14.jpg" style="width:100%">
+  </div>
+
+  <div class="slides">
+    <img src="dashboard15.jpg" style="width:100%">
+  </div>
+
+  <div class="slides">
+    <img src="dashboard16.jpg" style="width:100%">
+  </div>
+
+  <div class="slides">
+    <img src="dashboard17.jpg" style="width:100%">
+  </div>
+
+  <div class="slides">
+    <img src="dashboard18.jpg" style="width:100%">
+  </div>
+
+  <div class="slides">
+    <img src="dashboard19.jpg" style="width:100%">
+  </div>
+
+  <div class="slides">
+    <img src="dashboard20.jpg" style="width:100%">
+  </div>
+
+  <div class="slides">
+    <img src="dashboard21.jpg" style="width:100%">
+  </div>
+
+  <div class="slides">
+    <img src="dashboard22.jpg" style="width:100%">
+  </div>
+
+  <div class="slides">
+    <img src="dashboard23.jpg" style="width:100%">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+</div>
+
+<div class="bottom">
+  <p class="bottom">
+    Made By D.D.A.B
+  </p>
+</div>
+<script>
+var slideIndex = [1,1];
+var slideId = ["slides"]
+showSlides(1, 0);
+showSlides(1, 1);
+
+function plusSlides(n, no) {
+  showSlides(slideIndex[no] += n, no);
+}
+
+function showSlides(n, no) {
+  var i;
+  var x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  x[slideIndex[no]-1].style.display = "block";
+}
+
+
+
+</script>
+
+</body>
+</html>
