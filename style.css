@@ -1,0 +1,89 @@
+.pic { 
+   width:1350px; 
+   overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+}   
+
+.creator{
+    display: inline-block;
+justify-content:center;
+box-sizing: border-box;
+float: left;
+width:25%;
+padding:10px;
+height: 300px;
+}
+
+.icon{
+   width:100px; 
+    
+}
+
+
+.back{ 
+   width:cover;
+   overflow: hidden;
+   display:block;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    padding:20px;
+    width:600px;
+    justify-content:center;
+}   
+
+
+.menu{
+  display:block;  
+ justify-content:space-around;
+ font-size:25px;
+ background-color: transparent;
+ border:transparent;
+  font-family: 'Monofett', cursive;
+  text-align:center;
+  float:right;
+ padding:12px;
+ line-height: 25px;
+ border-radius:4px;  
+ color:white;
+}
+
+.slide{
+    float:right;
+   width:300px;
+   padding-bottom:1px;
+   background-color: black;
+}
+
+.all{
+    display:flex;
+    justify-content:center;
+   font-family: 'Song Myung', serif;
+    
+}
+
+.word{
+    font-family: 'Song Myung', serif;
+    font-size:20px;
+}
+
+.mission{
+  font-family: 'Song Myung', serif;
+  font-size:30px;  
+  margin-left:auto;  
+  margin-right:auto;
+}
+
+.bottom{
+    display:flex;
+    justify-content:center;
+    padding:10px;
+    overflow:hidden;
+    padding-left:400px;
+    padding-right:400px;
+    background-color: black;
+    color:white;
+    font-family: 'Song Myung', serif;
+    font-size:25px;
+}
